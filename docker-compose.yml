@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  webapidemo:
+    image: webapidemo
+    build:
+      context: .\WebApiDemo
+      dockerfile: Dockerfile
